@@ -1,0 +1,32 @@
+mlruns/
+
+mlartifacts/
+
+data/
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+*.csv
+*.html
+
+.env
+*.env
+
+# Ignore Python bytecode and logs
+*.log
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore data files
+data/
+
+# Ignore virtual environments
+venv/
+ENV/
+env/
+
+.venv/
