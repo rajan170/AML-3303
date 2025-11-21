@@ -64,16 +64,19 @@ pip install -r requirements.txt
 ```
 
 3. **Configure AWS S3**:
-    * Create a `.env` file in the project root:
 
-    ``` env
-    S3_BUCKET_NAME=your-bucket-name
-AWS_REGION=us-east-1
-AWS_ACCESS_KEY_ID=your-access-key
-AWS_SECRET_ACCESS_KEY=your-secret-key
-    ```
+``` env
+S3_BUCKET_NAME=your-bucket-name
+```
 
-    * Upload the dataset to S3: `s3://your-bucket-name/AB NYC 2019 Assessment 2.csv`
+* Create a `.env` file in the project root:
+
+AWS\_REGION=us-east-1
+AWS\_ACCESS\_KEY\_ID=your-access-key
+AWS\_SECRET\_ACCESS\_KEY=your-secret-key
+\`\`\`
+
+\* Upload the dataset to S3: `s3://your-bucket-name/AB NYC 2019 Assessment 2.csv`
 4. **Launch Jupyter Notebook**:
 
 ``` bash
@@ -85,7 +88,6 @@ jupyter notebook airbnb_complete_project.ipynb
 ## 📁 Repository Structure
 
 ```
-
 │
 ├── airbnb_complete_project.ipynb    # Main notebook with complete pipeline
 ├── main.py                          # Python script version (optional)
@@ -237,7 +239,7 @@ In MLflow UI, you can:
 
 - - -
 
-##  Model Performance Results
+## Model Performance Results
 
 ### Model Comparison Summary
 
@@ -372,7 +374,7 @@ See `pyproject.toml` for complete dependency list.
 
 - - -
 
-## 📸 Visualizations
+## Visualizations
 
 The project generates several visualizations saved in the `visualizations/` directory:
 
@@ -385,39 +387,19 @@ The project generates several visualizations saved in the `visualizations/` dire
 
 - - -
 
-## 🎓 Learning Outcomes
+##  Learning Outcomes
 
 This project demonstrates:
 
-* ✅ End-to-end ML pipeline from data loading to model deployment
-* ✅ AWS S3 integration for production data sources
-* ✅ MLflow for experiment tracking and model management
-* ✅ Feature engineering and preprocessing best practices
-* ✅ Model comparison and selection methodology
-* ✅ Business-focused model interpretation
-* ✅ Production-ready code structure
+* End-to-end ML pipeline from data loading to model deployment
+* AWS S3 integration for production data sources
+* MLflow for experiment tracking and model management
+* Feature engineering and preprocessing best practices
+* Model comparison and selection methodology
+* Business-focused model interpretation
+* Production-ready code structure
 
 - - -
 
-## 📧 Contact
-
-For questions or contributions, please contact:
-
-* **Author**: Rajan
-* **Institution**: Lambton College
-
-- - -
-
-## 📄 License
-
-This project is part of an academic assignment for Lambton College.
-
-- - -
-
-## Acknowledgments
-
-* StayWise for the business context and requirements
-* Lambton College for the project framework
-* Open source community for excellent ML tools (scikit-learn, XGBoost, MLflow)
-
-- - -
+<br>
+<br>
