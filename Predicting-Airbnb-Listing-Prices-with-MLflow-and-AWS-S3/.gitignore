@@ -46,7 +46,7 @@ models/*.pth
 *.h5
 *.hdf5
 
-# Visualizations (optional - uncomment if you don't want to track images)
+# Visualizations 
 # visualizations/*.png
 # visualizations/*.jpg
 # visualizations/*.pdf
