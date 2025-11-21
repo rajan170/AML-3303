@@ -235,7 +235,27 @@ In MLflow UI, you can:
 * Download models and artifacts
 * Register best model to Model Registry
 
-**Note**: Screenshots of MLflow UI showing experiment runs, metrics comparison, and model registry should be added to the `visualizations/` directory or included in project documentation.
+### MLflow UI Screenshots
+
+The following screenshots demonstrate the MLflow experiment tracking interface:
+
+#### Experiment Runs Overview
+
+![MLflow Experiment Runs](ss/image.png)
+
+*Figure 1: MLflow UI showing all 8 experiment runs for the airbnb_price_prediction experiment. Each run represents a different model (Linear Regression, Ridge, Lasso, ElasticNet, Decision Tree, Random Forest, Gradient Boosting, and XGBoost).*
+
+#### Model Comparison and Metrics
+
+![MLflow Model Comparison](ss/image2.png)
+
+*Figure 2: Detailed comparison of model metrics including Test R², Test RMSE, Train RMSE, and other performance indicators. The interface allows sorting and filtering to identify the best-performing model (XGBoost).*
+
+#### Model Details and Parameters
+
+![MLflow Model Details](ss/image3.png)
+
+*Figure 3: Detailed view of a model run showing hyperparameters, metrics, and artifacts. This view provides comprehensive information about model configuration and performance for reproducibility and analysis.*
 
 - - -
 
