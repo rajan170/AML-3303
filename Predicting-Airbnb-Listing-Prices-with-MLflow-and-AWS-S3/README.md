@@ -421,5 +421,3 @@ This project is part of an academic assignment for Lambton College.
 * Open source community for excellent ML tools (scikit-learn, XGBoost, MLflow)
 
 - - -
-
-**Last Updated**: November 2024
