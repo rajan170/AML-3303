@@ -1,0 +1,6 @@
+artifact_location: file:///Users/rajan/Projects/AML-3303/Predicting-Airbnb-Listing-Prices-with-MLflow-and-AWS-S3/mlruns/416135146092517914
+creation_time: 1763685571619
+experiment_id: '416135146092517914'
+last_update_time: 1763685571619
+lifecycle_stage: active
+name: airbnb_price_prediction

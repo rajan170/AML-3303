@@ -1,0 +1,10 @@
+artifact_location: file:///Users/rajan/Projects/AML-3303/Predicting-Airbnb-Listing-Prices-with-MLflow-and-AWS-S3/mlruns/416135146092517914/models/m-3eeecfe0b67f414198bfaada190cf897/artifacts
+creation_timestamp: 1763685631718
+experiment_id: '416135146092517914'
+last_updated_timestamp: 1763685633415
+model_id: m-3eeecfe0b67f414198bfaada190cf897
+model_type: null
+name: model
+source_run_id: 1c2f3c6a813a4b51b00d7ccc7cbfaac2
+status: 2
+status_message: null

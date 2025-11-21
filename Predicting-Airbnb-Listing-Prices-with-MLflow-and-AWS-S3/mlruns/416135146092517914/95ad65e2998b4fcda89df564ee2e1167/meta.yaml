@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/rajan/Projects/AML-3303/Predicting-Airbnb-Listing-Prices-with-MLflow-and-AWS-S3/mlruns/416135146092517914/95ad65e2998b4fcda89df564ee2e1167/artifacts
+end_time: 1763685934274
+entry_point_name: ''
+experiment_id: '416135146092517914'
+lifecycle_stage: active
+run_id: 95ad65e2998b4fcda89df564ee2e1167
+run_name: Gradient Boosting
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763685793993
+status: 3
+tags: []
+user_id: rajan

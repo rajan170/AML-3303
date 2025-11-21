@@ -1,0 +1,38 @@
+artifact_path: file:///Users/rajan/Projects/AML-3303/Predicting-Airbnb-Listing-Prices-with-MLflow-and-AWS-S3/mlruns/416135146092517914/models/m-1ef7757c8a0e4f8bac4b34469c68cc2b/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.9
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+is_signature_from_type_hint: false
+mlflow_version: 3.6.0
+model_id: m-1ef7757c8a0e4f8bac4b34469c68cc2b
+model_size_bytes: 11247
+model_uuid: m-1ef7757c8a0e4f8bac4b34469c68cc2b
+prompts: null
+run_id: 55e0c92464c14ed18af1d5059e168ae5
+signature:
+  inputs: '[{"type": "double", "name": "latitude", "required": true}, {"type": "double",
+    "name": "longitude", "required": true}, {"type": "long", "name": "minimum_nights",
+    "required": true}, {"type": "long", "name": "number_of_reviews", "required": true},
+    {"type": "double", "name": "reviews_per_month", "required": true}, {"type": "long",
+    "name": "calculated_host_listings_count", "required": true}, {"type": "long",
+    "name": "availability_365", "required": true}, {"type": "long", "name": "has_reviews",
+    "required": true}, {"type": "double", "name": "review_score", "required": true},
+    {"type": "string", "name": "neighbourhood_group", "required": true}, {"type":
+    "string", "name": "neighbourhood", "required": true}, {"type": "string", "name":
+    "room_type", "required": true}, {"type": "string", "name": "host_activity", "required":
+    true}, {"type": "string", "name": "availability_category", "required": false}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-11-21 00:40:42.100348'
